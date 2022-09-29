@@ -1,0 +1,54 @@
+.nav-btn{
+    cursor: pointer;
+    color: aliceblue;
+    /* visibility: hidden; */
+}
+
+
+.nav-btn{
+    display: none;
+}
+
+@media screen and (max-width:584px) {
+    .nav-btn{
+        display: block;
+    }
+    .navigation{}
+    .nav-links{
+        display: block !important; 
+        text-align:left !important;
+      
+    }
+    .nv-lk{
+        text-align: center !important;
+    }
+   
+    .nv-size{
+font-size: 1.5rem !important;
+padding: 20px;
+margin: 20px;
+    }
+    .nv-lks{
+        padding: 10px !important;
+    }
+}
+.box{
+    background-color: #116936;
+    width: 850px;
+    padding: 10px;
+    height: 500px;
+}
+.side-box{
+    background-color:#a8ce3a;
+    width: 350px;
+    height: 500px;
+}
+.small-news{
+    background-color: #a8ce3a;
+}
+.news-box{
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    background-color: #116936;
+}

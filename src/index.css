@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,700&family=Roboto+Slab&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark-green:#116936,
+  --light-green:#a8ce3a,
+}
